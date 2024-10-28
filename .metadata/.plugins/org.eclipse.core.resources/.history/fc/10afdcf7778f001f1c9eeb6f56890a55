@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+    .container{
+        margin: auto;
+        width: 50%;
+        padding: 30px;
+        background: #e2e2e2;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1 data-th-text="${FirstName}">Welcome to home page</h1>
+        <p>Last Name: <span data-th-text="${LastName}"></span></p>
+        <p>Designation: <span th-text="${profile}"></span></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eligendi, quisquam reprehenderit minus animi facere, mollitia nesciunt reiciendis ullam necessitatibus esse quod. Excepturi odit magnam vero odio aliquid. Cum, excepturi!</p>
+    </div>
+</body>
+</html>
