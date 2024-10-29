@@ -7,9 +7,7 @@
 <body>
 	<h1>This is about page</h1>
 	<div class="host-tag" th:replace="~{base :: parent(~{::section})}">
-		<section>This is dynamic content
-	       
-		</section>
+		<sectionp>This is dynamic content</sectionp>
 	</div>
 </body>
 </html>

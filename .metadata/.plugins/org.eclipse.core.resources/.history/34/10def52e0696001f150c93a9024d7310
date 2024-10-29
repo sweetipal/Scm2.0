@@ -6,10 +6,7 @@
 </head>
 <body>
 	<h1>This is about page</h1>
-	<div class="host-tag" th:replace="~{base :: parent(~{::section})}">
-		<section>This is dynamic content
-	       
-		</section>
+	<div class="host-tag" th:replace="~{base :: parent('one','two')}">
 	</div>
 </body>
 </html>

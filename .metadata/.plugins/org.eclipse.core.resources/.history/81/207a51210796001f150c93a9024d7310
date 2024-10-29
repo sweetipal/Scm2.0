@@ -5,7 +5,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>This is Services  page</h1>
+	<h1>This is about page</h1>
 	<div class="host-tag" th:replace="~{base :: parent('services one','services two')}"></div>
 </body>
 </html>
